@@ -1,0 +1,74 @@
+---
+title: Penjualan Online
+icon: ShoppingBag
+---
+
+Halaman **Penjualan** digunakan untuk memantau, memfilter, dan mengelola seluruh transaksi penjualan *online* yang masuk ke toko mitra secara *real-time*.
+
+---
+
+## 1. Ikhtisar Tabel Penjualan
+
+Pada daftar utama penjualan, mitra dapat melihat ringkasan informasi transaksi secara menyeluruh.
+
+![Halaman Daftar Penjualan Online](/image/penjualan.png)
+
+### Fitur Pencarian & Filter
+* **Kolom Pencarian (*Search Bar*)**: Cari transaksi dengan cepat memasukkan nomor invoice, nama pembeli, atau nama produk.
+* **Filter Status**: Menyaring daftar transaksi berdasarkan status pesanan (seperti *Siap Diambil*, *Diantar Kurir*, *Selesai*, *Batal*, atau *Ditolak*).
+* **Ekspor Excel**: Mengunduh seluruh rekap data penjualan ke dalam berkas format `.xlsx` / Excel untuk kebutuhan pembukuan.
+
+### Struktur Kolom Tabel
+| Kolom | Deskripsi Fungsi |
+| :--- | :--- |
+| **Pesanan** | Menampilkan nomor invoice unik transaksi (contoh: `#INV-2026-00159`). Dapat diklik untuk membuka detail pesanan. |
+| **Produk** | Nama produk beserta jumlah/satuan pesanan. |
+| **Pembeli** | Nama akun pembeli. Dapat diklik untuk membuka profil pelanggan. |
+| **Pengiriman** | Metode pengiriman (*Ambil Sendiri* atau *Diantar Kurir*) beserta jarak lokasi. |
+| **Total** | Total nominal transaksi dan jumlah barang. |
+| **Status** | Label indikator status pesanan saat ini. |
+| **Aksi** | Tombol navigasi/tindakan cepat sesuai status transaksi. |
+| **Waktu Pesanan** | Catatan relatif tanggal dan waktu transaksi dibuat. |
+
+---
+
+## 2. Halaman Detail Pesanan
+
+Ketika mitra menekan salah satu **Nomor Invoice** pada tabel, sistem akan mengarahkan mitra ke halaman **Detail Pesanan**.
+
+![Halaman Detail Pesanan](/image/detail-penjualan.png)
+
+Halaman ini menyajikan rincian lengkap mengenai transaksi, meliputi:
+* **Status & Riwayat Pesanan**: Status terkini beserta alur pemrosesan transaksi.
+* **Rincian Produk**: Daftar barang yang dibeli, harga satuan, serta total belanja.
+* **Informasi Pembeli & Pengiriman**: Alamat pengiriman pembeli, nomor kontak, serta metode pengiriman yang dipilih.
+* **Rincian Pembayaran**: Metode pembayaran yang digunakan (misal: *Saldo Aplikasi*) beserta status kelunasannya.
+* **Cetak Struk**: Tombol khusus untuk membuka tampilan cetak bukti transaksi.
+
+---
+
+## 3. Cetak Struk Pesanan
+
+Dengan menekan tombol **Cetak Struk** pada halaman detail pesanan, sistem akan menampilkan dokumen nota transaksi resmi yang siap dicetak[cite: 13].
+
+![Tampilan Struk Pesanan](/image/struk.png)
+
+Dokumen **Struk Pesanan** ini memuat:
+1. **Informasi Mitra**: Nama toko, alamat lengkap, nomor telepon, dan ID Mitra[cite: 13].
+2. **Identitas Struk**: Nomor struk (invoice) dan tanggal/waktu transaksi[cite: 13].
+3. **Informasi Pelanggan & Pembayaran**: Nama pelanggan, jenis pengiriman, status pembayaran (*Lunas*), dan metode pembayaran[cite: 13].
+4. **Rincian Barang & Total**: Deskripsi produk, jumlah item, harga satuan, subtotal, ongkos kirim, hingga total pembayaran akhir[cite: 13].
+
+---
+
+## 4. Profil Pembeli
+
+Jika mitra menekan **Nama Pembeli** pada tabel penjualan atau detail pesanan, sistem akan mengarahkan mitra ke halaman **Profil Pembeli**[cite: 12, 14].
+
+![Tampilan Profil Pembeli](/image/cust-profile.png)
+
+Halaman ini berfungsi untuk melihat riwayat serta identitas pelanggan:
+* **Informasi Akun**: Nama penerima dan tautan nomor invoice transaksi terkait.
+* **Kontak**: Nomor telepon pelanggan yang dapat dihubungi.
+* **Alamat**: Alamat pengiriman lengkap mitra/pembeli.
+* **Catatan Waktu**: Waktu pembuatan pesanan.
