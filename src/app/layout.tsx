@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Dokumentasi teem.id',
+  title: 'Dokumentasi mitra teem.id',
   description: 'Dokumentasi resmi platform teem.id',
   icons: {
     icon: '/favicon.png',

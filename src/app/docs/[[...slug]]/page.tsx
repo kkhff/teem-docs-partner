@@ -46,6 +46,6 @@ export async function generateStaticParams() {
 // FUNGSI INI YANG DIGANTI UNTUK MENGUNCI TITLE TAB BROWSER
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Dokumentasi teem.id',
+    title: 'Dokumentasi mitra teem.id',
   };
 }

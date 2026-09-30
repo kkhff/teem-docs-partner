@@ -1,5 +1,5 @@
 {
-  "title": "Dokumentasi teem.id",
+  "title": "Dokumentasi mitra teem.id",
   "pages": [
     "index",
     "---PENGENALAN---",
@@ -9,7 +9,8 @@
     "registrasi",
     "login",
     "menjadi-mitra",
-    "---DASHBOARD MITRA---",
+    "---MENU MITRA---",
+    "profile-mitra",
     "dashboard",
     "saldo",
     "penjualan",
