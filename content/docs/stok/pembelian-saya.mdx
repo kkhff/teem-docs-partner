@@ -3,7 +3,7 @@ title: Pembelian Saya
 icon: Receipt
 ---
 
-Halaman **Pembelian Saya** menyajikan seluruh riwayat transaksi pengadaan stok (*Restock*) yang dilakukan oleh Mitra. Melalui antarmuka ini, Mitra dapat memantau status pemrosesan pesanan oleh pihak penjual/distributor, melihat riwayat pengajuan pembatalan, hingga melacak detail rincian produk yang dipesan.
+Halaman **Pembelian Saya** menyajikan seluruh riwayat transaksi pengadaan stok (*Restock*) yang dilakukan oleh Mitra. Melalui antarmuka ini, Mitra dapat memantau status pemrosesan pesanan oleh pihak penjual/distributor, melihat riwayat pengajuan pembatalan, mengunduh rekap riwayat ke Excel, hingga melacak detail rincian produk yang dipesan.
 
 ---
 
@@ -13,18 +13,20 @@ Daftar pembelian stok menampilkan seluruh kartu transaksi *restock* beserta indi
 
 ![Daftar Pembelian Saya Mitra](/image/pembelian-saya.png)
 
-### 1. Filter Status Pembelian
-Mitra dapat menyaring transaksi berdasarkan tab status yang tersedia:
-* **Semua**: Menampilkan seluruh riwayat pesanan *restock*.
-* **Belum Bayar**: Pesanan yang belum diselesaikan pembayarannya.
-* **Dikemas**: Pesanan yang sedang dikemas oleh pihak penjual/distributor.
-* **Dikirim / Siap Diambil**: Pesanan yang sedang dalam proses pengiriman kurir logistik atau siap diambil di lokasi.
-* **Selesai**: Pesanan yang telah berhasil diterima dan dikonfirmasi.
-* **Dibatalkan**: Pesanan yang batal atau ditolak.
+### 1. Pencarian, Filter & Export Excel
+* **Kolom Pencarian (*Search Bar*)**: Cari riwayat transaksi secara spesifik dengan memasukkan nomor invoice atau nama produk.
+* **Filter Status**: Mitra dapat menyaring transaksi berdasarkan tab status yang tersedia:
+  * **Semua**: Menampilkan seluruh riwayat pesanan *restock*.
+  * **Belum Bayar**: Pesanan yang belum diselesaikan pembayarannya.
+  * **Dikemas**: Pesanan yang sedang dikemas oleh pihak penjual/distributor.
+  * **Dikirim / Siap Diambil**: Pesanan yang sedang dalam proses pengiriman kurir logistik atau siap diambil di lokasi.
+  * **Selesai**: Pesanan yang telah berhasil diterima dan dikonfirmasi.
+  * **Dibatalkan**: Pesanan yang batal atau ditolak.
+* **Fitur Export Excel**: Klik tombol **[Export]** yang berada di sudut kanan atas untuk mengunduh rekap riwayat pembelian stok ke dalam berkas berformat `.xlsx` / Excel.
 
 ### 2. Informasi Ringkas Kartu Pesanan
 Setiap kartu transaksi *restock* memuat informasi penting berikut:
-* **Nomor Invoice & Metode Pengiriman**: Contoh: `INV-2026-00163` dengan metode *Kurir Pengiriman*.
+* **Nomor Invoice & Metode Pengiriman**: Contoh: `INV-2026-00164` dengan metode *Kurir Pengiriman*.
 * **Waktu Pemesanan**: Tanggal dan jam transaksi dibuat.
 * **Status Transaksi**: 
   * `Diproses Penjual`: Pesanan sedang diproses dan dikemas.
@@ -58,6 +60,3 @@ Saat menekan tombol **[Detail]**, Mitra akan diarahkan ke halaman rincian transa
    * **Penerima**: Nama Mitra, nomor telepon, dan alamat lengkap tujuan toko/gudang Mitra.
    * **Penjual**: Nama penjual/distributor asal beserta alamat dan kontak.
    * **Kurir Logistik**: Layanan kurir pengiriman yang digunakan (contoh: *JNE OKE*).
-
----
-
